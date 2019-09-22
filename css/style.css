@@ -9,6 +9,7 @@ body{
 header{
 	background-color: #70d4bb;
 	text-align: center;
+	line-height: 1.3;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -23,3 +24,56 @@ header img{
 	width: 300px;
 	border: 20px solid white;
 }
+
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+
+footer{
+
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
+.mydiv {
+	text-size: 16px;
+
+
+}
+
+.card{
+	padding: 50px;
+	box-shadow: 6px;
+	-webkit-box-shadow: 0px 3px 10px -1px rgba(168,166,168,1);
+	-moz-box-shadow: 0px 3px 10px -1px rgba(168,166,168,1);
+	box-shadow: 0px 3px 10px -1px rgba(168,166,168,1);
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.card--thin{
+	padding: 5px 50px;
+
+}
+
+.card__title{
+	font-family: ariel;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.card__content{
+	font-size: 18px;
+}
+
+
